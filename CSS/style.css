@@ -8,8 +8,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('/Images/playa.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .main-header {
@@ -40,3 +43,11 @@ body {
     height: 94svh;
 }
 
+.slider-container {
+    height: 350px;
+    border: 1px solid blueviolet;
+}
+
+.product-container{
+    
+}
