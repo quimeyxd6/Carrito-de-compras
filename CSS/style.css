@@ -3,11 +3,20 @@
     padding: 0;
 }
 
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/playa.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .main-header {
-    background-color: aquamarine;
-    height: 6svh;
+    height: 60px;
     display: flex;
     justify-content: space-around;
+    border: 1px solid blue;
 }
 
 .search-contain {
@@ -28,6 +37,6 @@
 }
 
 .main-container {
-    background-color: cadetblue;
     height: 94svh;
 }
+
