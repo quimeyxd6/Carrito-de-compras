@@ -7,5 +7,27 @@
     background-color: aquamarine;
     height: 6svh;
     display: flex;
+    justify-content: space-around;
+}
+
+.search-contain {
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rojo {
+    padding: 4px;
+    background-color: red;
+}
+
+.main-container {
+    background-color: cadetblue;
+    height: 94svh;
 }
